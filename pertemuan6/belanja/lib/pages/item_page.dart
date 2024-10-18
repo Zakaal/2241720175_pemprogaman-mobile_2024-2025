@@ -2,10 +2,6 @@ import 'package:belanja/models/item.dart';
 import 'package:belanja/widgets/footer.dart';
 import 'package:flutter/material.dart';
 
-import 'package:belanja/models/item.dart';
-import 'package:flutter/material.dart';
-import 'package:belanja/widgets/footer.dart';
-
 class ItemPage extends StatelessWidget {
   final Item item;
   const ItemPage({Key? key, required this.item}) : super(key: key);
