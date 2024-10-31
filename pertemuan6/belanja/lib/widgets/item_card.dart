@@ -1,11 +1,10 @@
 import 'package:belanja/models/item.dart';
 import 'package:flutter/material.dart';
-import 'package:belanja/pages/item_page.dart';
 import 'package:go_router/go_router.dart';
 
 class ItemCard extends StatelessWidget {
   final Item item;
-  const ItemCard({Key? key, required this.item}) : super(key: key);
+  const ItemCard({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +25,7 @@ class ItemCard extends StatelessWidget {
               child: Hero(
                 tag: 'hero-${item.name}',
                 child: ClipRRect(
-                  borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
+                  borderRadius: const BorderRadius.vertical(top: Radius.circular(10)),
                   child: Image.asset(
                     item.imagePath,
                     fit: BoxFit.cover,
@@ -52,7 +51,7 @@ class ItemCard extends StatelessWidget {
                   const SizedBox(height: 5),
                   Text(
                     'Rp${item.price}',
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.black, //
                       fontSize: 14,
                       fontWeight: FontWeight.w600,
@@ -62,7 +61,7 @@ class ItemCard extends StatelessWidget {
                   const SizedBox(height: 5),
                   Text(
                     'Stock: ${item.stock}',
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.white, // Warna untuk stok
                       fontSize: 12,
                     ),
@@ -72,7 +71,7 @@ class ItemCard extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.star, color: Colors.amber, size: 16), // Warna bintang
+                      const Icon(Icons.star, color: Colors.amber, size: 16), // Warna bintang
                       const SizedBox(width: 5),
                       Text(
                         '${item.rating}',

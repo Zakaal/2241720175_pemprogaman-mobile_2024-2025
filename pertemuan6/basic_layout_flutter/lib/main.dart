@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Pavlova Dessert',
       home: PavlovaPage(),
     );
@@ -13,10 +15,12 @@ class MyApp extends StatelessWidget {
 }
 
 class PavlovaPage extends StatelessWidget {
+  const PavlovaPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Strawberry Pavlova')),
+      appBar: AppBar(title: const Text('Strawberry Pavlova')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
@@ -27,18 +31,18 @@ class PavlovaPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  const Text(
                     'Strawberry Pavlova',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(height: 8),
-                  Text(
+                  const SizedBox(height: 8),
+                  const Text(
                     'Pavlova is a meringue-based dessert named after the Russian ballerina Anna Pavlova. '
                     'Pavlova features a crisp crust and soft, light inside, topped with fruit and whipped cream.',
                     style: TextStyle(fontSize: 16),
                   ),
-                  SizedBox(height: 8),
-                  Row(
+                  const SizedBox(height: 8),
+                  const Row(
                     children: [
                       Icon(Icons.star, color: Colors.amber),
                       Icon(Icons.star, color: Colors.amber),
