@@ -44,5 +44,21 @@
 
 ![alt text](assets/p1l4s2.png)
 
+### Langkah 5: Tambah kode di ElevatedButton
+
+**Tambahkan kode pada onPressed di ElevatedButton**
+
+![alt text](assets/p1l5.png)
+
+**Soal 3 :**
+
+**Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!**
+
+Jawab : Metode substring digunakan untuk mengambil bagian tertentu dari sebuah string berdasarkan indeks yang ditentukan. Sementara itu, catchError berfungsi untuk menangani kesalahan yang muncul dalam kode.
+
+**Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 3".**
+
+![alt text](assets/p1l5s3.gif)
+
 
 
