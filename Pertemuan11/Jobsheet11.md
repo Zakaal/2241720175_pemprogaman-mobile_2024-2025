@@ -155,3 +155,29 @@ Sementara itu, kode pada langkah 5-6 menggunakan Completer bersama dengan Future
 **Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 6".**
 
 ![alt text](assets/p3l6soal6.gif)
+
+## Praktikum 4: Memanggil Future secara paralel
+
+### Langkah 1: Buka file main.dart
+
+**Tambahkan method ini ke dalam class _FuturePageState**
+
+![alt text](assets/p4l1.png)
+
+## Langkah 2: Edit onPressed()
+
+**Anda bisa hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut.**
+
+![alt text](assets/p4l2.png)
+
+## Langkah 3: Run
+
+**Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.**
+
+![alt text](assets/p4l3s7.gif)
+
+### Soal 7
+
+**Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".**
+
+![alt text](assets/p4l3s7.gif)
