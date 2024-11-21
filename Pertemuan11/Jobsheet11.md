@@ -181,3 +181,49 @@ Sementara itu, kode pada langkah 5-6 menggunakan Completer bersama dengan Future
 **Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".**
 
 ![alt text](assets/p4l3s7.gif)
+
+### Langkah 4: Ganti variabel futureGroup
+
+**Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.**
+
+![alt text](assets/p4l4.png)
+
+### Soal 8
+
+**Jelaskan maksud perbedaan kode langkah 1 dan 4!**
+
+Jawab : Langkah 1 menggunakan FutureGroup untuk menjalankan beberapa Future secara bersamaan (paralel) dan memberikan fleksibilitas dalam menambahkan Future secara dinamis.
+
+Sebaliknya, langkah 4 memanfaatkan Future.wait, yang juga menjalankan beberapa Future secara paralel tetapi menghasilkan sebuah Future tunggal yang selesai hanya setelah semua Future yang dikelola selesai.
+
+Kedua pendekatan ini digunakan untuk menunggu penyelesaian beberapa Future, namun FutureGroup lebih fleksibel karena memungkinkan penambahan Future secara dinamis.
+
+## 7. Praktikum 5: Menangani Respon Error pada Async Code 
+
+### Langkah 1: Buka file main.dart
+
+**Tambahkan method ini ke dalam class _FuturePageState**
+
+![alt text](assets/p5l1.png)
+
+### Langkah 2: ElevatedButton
+
+**Ganti dengan kode berikut**
+
+![alt text](assets/p5l2.png)
+
+### Langkah 3: Run
+
+**Lakukan run dan klik tombol GO! maka akan menghasilkan seperti gambar berikut.**
+
+![alt text](assets/p5l3a.png)
+
+**Pada bagian debug console akan melihat teks Complete seperti berikut.**
+
+![alt text](assets/p5l3b.png)
+
+## Soal 9
+
+**Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 9".**
+
+![alt text](assets/p5l3s9.gif)
