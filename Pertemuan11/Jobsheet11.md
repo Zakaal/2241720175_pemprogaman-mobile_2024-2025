@@ -60,5 +60,38 @@ Jawab : Metode substring digunakan untuk mengambil bagian tertentu dari sebuah s
 
 ![alt text](assets/p1l5s3.gif)
 
+## Praktikum 2: Menggunakan await/async untuk menghindari callbacks
 
+### Langkah 1: Buka file main.dart
 
+**Tambahkan tiga method berisi kode seperti berikut di dalam class _FuturePageState.**
+
+![alt text](assets/p2l1.png)
+
+### Langkah 2: Tambah method count()
+
+**Lalu tambahkan lagi method ini di bawah ketiga method sebelumnya.**
+
+![alt text](assets/p2l2.png)
+
+### Langkah 3: Panggil count()
+
+**Lakukan comment kode sebelumnya, ubah isi kode onPressed()**
+
+![alt text](assets/p2l3.png)
+
+### Langkah 4: Run
+
+**Akhirnya, run atau tekan F5 jika aplikasi belum running. Maka Anda akan melihat seperti gambar berikut, hasil angka 6 akan tampil setelah delay 9 detik.**
+
+![alt text](assets/p2l4.gif)
+
+**Soal 4:**
+
+**Jelaskan maksud kode langkah 1 dan 2 tersebut!**
+
+Jawab : Langkah 1 adalah fungsi asinkron yang masing-masing menunggu selama 3 detik sebelum mengembalikan nilai integer (1, 2, dan 3).
+
+**Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 4".**
+
+![alt text](assets/p2l4.gif)
