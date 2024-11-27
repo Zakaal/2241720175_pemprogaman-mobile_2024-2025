@@ -222,8 +222,67 @@ Kedua pendekatan ini digunakan untuk menunggu penyelesaian beberapa Future, namu
 
 ![alt text](assets/p5l3b.png)
 
-## Soal 9
+### Soal 9
 
 **Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 9".**
 
 ![alt text](assets/p5l3s9.gif)
+
+### Langkah 4: Tambah method handleError()
+
+**Tambahkan kode ini di dalam class _FutureStatePage**
+
+![alt text](assets/p5l4.png)
+
+### Soal 10
+
+**Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!** 
+
+Jawab : 
+
+Outputnya akan menampilkan "complete" di konsol. Perbedaan antara langkah 1 dan langkah 4 adalah:
+
+- Pada langkah 1, digunakan catchError untuk menangkap error yang terjadi dalam kode, serta onComplete untuk menampilkan hasil di konsol.
+
+- Sementara itu, langkah 4 memanfaatkan try-catch di dalam metode returnError untuk menangani error, dan finally digunakan untuk memastikan hasil tetap ditampilkan di konsol.
+
+## Praktikum 6: Menggunakan Future dengan StatefulWidget
+
+### Langkah 1: install plugin geolocator
+
+**Tambahkan plugin geolocator dengan mengetik perintah berikut di terminal.**
+
+![alt text](assets/p6l1.png)
+
+### Langkah 2: Tambah permission GPS
+
+![alt text](assets/p6l2.png)
+
+### Langkah 3: Buat file geolocation.dart
+
+**Tambahkan file baru ini di folder lib project Anda.**
+
+![alt text](assets/p6l3.png)
+
+### Langkah 4: Buat StatefulWidget
+
+**Buat class LocationScreen di dalam file geolocation.dart**
+
+![alt text](assets/p6l4.png)
+
+### Langkah 5: Isi kode geolocation.dart
+
+![alt text](assets/p6l5.png)
+
+### Soal 11
+
+**Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.**
+
+![alt text](assets/p6l5s11.png)
+
+### Langkah 6: Edit main.dart
+
+**Panggil screen baru tersebut di file main Anda**
+
+![alt text](assets/p6l6.png)
+
