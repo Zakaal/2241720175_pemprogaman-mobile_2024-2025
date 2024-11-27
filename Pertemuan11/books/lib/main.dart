@@ -3,6 +3,7 @@ import 'package:books/geolocation.dart';
 import 'package:books/navigation_dialog.dart';
 import 'package:books/navigation_first.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart';
 import 'package:async/async.dart';
 
