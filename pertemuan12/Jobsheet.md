@@ -37,3 +37,23 @@ Ketikkan kode sesuai dengan contoh yang diberikan.
 **3. Lakukan commit hasil jawaban Soal 1 dengan pesan "W12: Jawaban Soal 1"**
 
 ![alt text](assets/comits1.png)
+
+### Langkah 3: Buat file baru stream.dart
+
+Buat file baru di folder lib project Anda lalu isi sesuai dengan contoh kode yang diberikan
+
+![alt text](assets/p1l3.png)
+
+### Langkah 4: Tambah variabel colors
+
+Tambahkan variabel di dalam class ColorStream
+
+![alt text](assets/p1l4.png)
+
+### Soal 2 
+
+**1. Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.**
+
+![alt text](assets/p1s2.png)
+
+**Lakukan commit hasil jawaban Soal 2 dengan pesan "W12: Jawaban Soal 2"**
