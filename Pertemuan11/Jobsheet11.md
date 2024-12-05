@@ -343,3 +343,19 @@ Jawab : Tidak perbedaan dan perubahan UI dengan praktikum sebelumnya. Hal terseb
 ![alt text](assets/p7l4s13.gif)
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 13".
+
+### Langkah 5: Tambah handling error
+
+**Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restart.**
+
+![alt text](assets/p7l5.png)
+
+### Soal 14
+
+- Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+
+Jawab : Tidak perbedaan dan perubahan UI dengan praktikum sebelumnya. Hal tersebut dikarenakan praktikum ini masih menggunakan FutureBuilder yang akan menampilkan widget sesuai dengan status Future ditambah dengan hadleError untuk menampilkan error.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
+
+![alt text](assets/p7l5s14.gif)
