@@ -420,3 +420,52 @@ Jawab :
 ![alt text](assets/p8l7s16.gif)
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 16".
+
+## Praktikum 9: Memanfaatkan async/await dengan Widget Dialog 
+
+### Langkah 1: Buat file baru navigation_dialog.dart
+
+**Buat file dart baru di folder lib project Anda.**
+
+![alt text](assets/p9l1.png)
+
+### Langkah 2: Isi kode navigation_dialog.dart
+
+![alt text](assets/p9l2.png)
+
+### Langkah 3: Tambah method async
+
+![alt text](assets/p9l3.png)
+
+### Langkah 4: Panggil method di ElevatedButton
+
+![alt text](assets/p9l4.png)
+
+### Langkah 5: Edit main.dart
+
+**Ubah properti home**
+
+![alt text](assets/p9l5.png)
+
+### Langkah 6: Run
+
+**Coba ganti warna background dengan widget dialog tersebut. Jika terjadi error, silakan diperbaiki. Jika berhasil, akan tampil seperti gambar berikut.**
+
+![alt text](assets/p9l6.gif)
+
+### Soal 17
+
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+Jawab : Ketika button change color diklik, maka akan muncul dialog pop up yang berisi 3 piliha button yang apabila dipilih akan mengubah warna background pada halaman pertama sesuai dengan warna masing masing.
+
+Mengganti warna menjadi warna favorit.
+
+- Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+![alt text](assets/p9l6s16.png)
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 17".
+
+![alt text](assets/p9l6s16.gif)
+
