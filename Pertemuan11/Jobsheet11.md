@@ -286,3 +286,60 @@ Outputnya akan menampilkan "complete" di konsol. Perbedaan antara langkah 1 dan 
 
 ![alt text](assets/p6l6.png)
 
+### Langkah 7: Run
+
+**Run project Anda di device atau emulator (bukan browser)**
+
+![alt text](assets/p6l11.gif)
+
+### Langkah 8: Tambahkan animasi loading
+
+**Tambahkan widget loading seperti kode berikut. Lalu hot restart, perhatikan perubahannya.**
+
+![alt text](assets/p6l8.png)
+
+### Soal 12
+ 
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+Jawab : Saya mendapatkan koordinat gps ketika menggunakan browser dikarenakan browser juga memiliki akses ke gps jika saya menerima permintaan akses tersebut sehingga koordinat gps didapatkan
+
+![alt text](assets/p6l8.gif)
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 12".
+
+## Praktikum 7: Manajemen Future dengan FutureBuilder
+
+### Langkah 1: Modifikasi method getPosition()
+
+**Buka file geolocation.dart kemudian ganti isi method dengan kode ini.**
+
+![alt text](assets/p7l1.png)
+
+### Langkah 2: Tambah variabel
+
+**Tambah variabel ini di class _LocationScreenState**
+
+![alt text](assets/p7l2.png)
+
+### Langkah 3: Tambah initState()
+
+**Tambah method ini dan set variabel position**
+
+### Langkah 4: Edit method build()
+
+**Ketik kode berikut dan sesuaikan. Kode lama bisa Anda comment atau hapus.**
+
+![alt text](assets/p7l3.png)
+
+### Soal 13
+
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+
+Jawab : Tidak perbedaan dan perubahan UI dengan praktikum sebelumnya. Hal tersebut dikarenakan praktikum ini masih menggunakan FutureBuilder yang akan menampilkan widget sesuai dengan status Future.
+
+![alt text](assets/p7l4s13.gif)
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 13".
