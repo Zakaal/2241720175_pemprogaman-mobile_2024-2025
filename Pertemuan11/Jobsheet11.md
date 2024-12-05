@@ -359,3 +359,64 @@ Jawab : Tidak perbedaan dan perubahan UI dengan praktikum sebelumnya. Hal terseb
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
 
 ![alt text](assets/p7l5s14.gif)
+
+## 10. Praktikum 8: Navigation route dengan Future Function
+
+### Langkah 1: Buat file baru navigation_first.dart
+
+**Buatlah file baru ini di project lib Anda.**
+
+![alt text](assets/p8l1.png)
+
+### Langkah 2: Isi kode navigation_first.dart
+
+![alt text](assets/p8l2.png)
+
+### Soal 15
+
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda. 
+
+- Silakan ganti dengan warna tema favorit Anda.
+
+Jawab : 
+![alt text](assets/p8l2s15.png)
+
+### Langkah 3: Tambah method di class _NavigationFirstState
+
+![alt text](assets/p8l3.png)
+
+### Langkah 4: Buat file baru navigation_second.dart
+
+**Buat file baru ini di project lib Anda. Silakan jika ingin mengelompokkan view menjadi satu folder dan sesuaikan impor yang dibutuhkan.**
+
+![alt text](assets/p8l4.png)
+
+### Langkah 5: Buat class NavigationSecond dengan StatefulWidget
+
+![alt text](assets/p8l5.png)
+
+### Langkah 6: Edit main.dart
+
+**Lakukan edit properti home.**
+
+![alt text](assets/p8l6.png)
+
+### Langkah 8: Run
+
+**Lakukan run, jika terjadi error silakan diperbaiki.**
+
+![alt text](assets/p8l7.gif)
+
+### Soal 16
+
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+Jawab : Saat saya mengklik button change color, maka akan menampilkan halaman kedua. Pada halaman kedua ini terdapat 3 button yang masing-masing akan mengubah warna background pada halaman pertama.
+
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+Jawab : 
+
+![alt text](assets/p8l7s16.gif)
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 16".
