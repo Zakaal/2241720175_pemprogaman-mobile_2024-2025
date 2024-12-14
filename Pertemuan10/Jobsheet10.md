@@ -300,4 +300,5 @@ Alur ini menunjukkan perpindahan dari layar pembuatan rencana ke layar utama unt
 
 Jawab : Pada langkah 9 dilakukan pembuatan _buildMasterPlans yang berguna untuk membuat list rencana yang sudah dibuat sebelumnya
 
-![alt text](assets/p3l14.gif)
+
+<img src="/assets/p3l14.gif" width="250" height="250"/>
