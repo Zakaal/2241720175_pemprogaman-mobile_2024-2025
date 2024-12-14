@@ -123,3 +123,21 @@ Jawab : ![alt text](assets/p1s4.gif)
 
 **Lakukan commit hasil jawaban Soal 4 dengan pesan "W12: Jawaban Soal 4"**
 
+### Langkah 13: Ganti isi method changeColor()
+
+![alt text](assets/p1l13.png)
+
+### Soal 5
+
+**1.Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !**
+
+Jawab : 
+
+Perbedaan : 
+
+- **listen**: Berfungsi untuk mendeteksi perubahan pada sebuah stream. Saat stream menghasilkan data, kode yang didefinisikan di dalam callback `listen` akan dieksekusi. `listen` biasanya digunakan untuk penanganan asynchronous tanpa menghentikan eksekusi kode berikutnya.
+
+- **await for**: Digunakan untuk menunggu data dari sebuah stream secara sequential. Saat stream mengeluarkan data, kode di dalam blok `await for` akan dijalankan. Proses ini bersifat synchronous, sehingga akan menunggu hingga stream selesai sebelum melanjutkan eksekusi kode berikutnya.
+
+**Lakukan commit hasil jawaban Soal 5 dengan pesan "W12: Jawaban Soal 5"**
+
