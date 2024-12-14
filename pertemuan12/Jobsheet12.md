@@ -339,4 +339,109 @@ Jawab :
 
 ![alt text](assets/p4l9s9.gif)
 
+## Praktikum 5: Multiple stream subscriptions
+
+### Langkah 1: Buka file main.dart
+
+**Ketik variabel berikut di class `_StreamHomePageState`**
+
+![alt text](assets/p5l1.png)
+
+### Langkah 2: Edit initState()
+
+![alt text](assets/p5l2.png)
+
+### Langkah 3: Run
+
+![alt text](assets/p5l3.png)
+
+### Soal 10
+
+**1.Jelaskan mengapa error itu bisa terjadi ?**
+
+Jawab : 
+
+penyebab error : 
+
+- Keterbatasan stream karena stream yang dihasilkan hanya mendukung satu kali subscribe.
+
+- Jika stream di-subscribe lebih dari sekali, akan memicu error karena tidak memenuhi aturan penggunaan stream tersebut.
+
+### Langkah 4: Set broadcast stream
+
+![alt text](assets/p5l4.png)
+
+### Langkah 5: Edit method build()
+
+![alt text](assets/p5l5.png)
+
+### Langkah 6: Run
+
+![alt text](assets/p5l6.gif)
+
+### Soal 11
+
+**1.Jelaskan mengapa hal itu bisa terjadi ?**
+
+Jawab : Hal tersebut disebabkan oleh perubahan stream menjadi broadcast stream. Broadcast stream memungkinkan stream untuk di-subscribe berkali-kali, sehingga setiap kali tombol "Add Random Number" ditekan, data baru akan masuk ke dalam stream.
+
+**2.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+![alt text](assets/p5l6s11.gif)
+
+## Praktikum 6: StreamBuilder
+
+### Langkah 1: Buat Project Baru
+
+**Buatlah sebuah project flutter baru dengan nama streambuilder_nama (beri nama panggilan Anda) di folder repository GitHub Anda.**
+
+![alt text](assets/p6l1.png)
+
+### Langkah 2: Buat file baru stream.dart
+
+![alt text](assets/p6l2.png)
+
+### Langkah 3: Tetap di file stream.dart
+
+**Ketik kode seperti berikut.**
+
+![alt text](assets/p6l3.png)
+
+### Langkah 4: Edit main.dart
+
+![alt text](assets/p6l4.png)
+
+### Langkah 5: Tambah variabel
+
+**Di dalam class `_StreamHomePageState`, ketika variabel ini.**
+
+![alt text](assets/p6l5.png)
+
+### Langkah 6: Edit initState()
+
+![alt text](assets/p6l6.png)
+
+### Langkah 7: Edit method build()
+
+![alt text](assets/p6l7.png)
+
+### Langkah 8: Run
+
+![alt text](assets/p6l8.gif)
+
+### Soal 12
+
+**1.Jelaskan maksud kode pada langkah 3 dan 7 !**
+
+Jawab : 
+
+- Langkah 3: Membuat method `getNumbers()` yang berfungsi untuk menghasilkan stream yang berisi daftar angka acak antara 0 hingga 9.
+
+- Langkah 7: Menggunakan StreamBuilder untuk menampilkan data yang dihasilkan oleh stream ke dalam aplikasi secara dinamis.
+
+**2.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+![alt text](assets/p6l8s12.gif)
+
+
 
