@@ -213,3 +213,28 @@ Jawab :
 
 **3.Lalu lakukan commit dengan pesan "W12: Jawaban Soal 6".**
 
+### Langkah 13: Buka stream.dart
+
+![alt text](assets/p2l13.png)
+
+### Langkah 14: Buka main.dart
+
+**Tambahkan method onError di dalam class StreamHomePageState pada method listen di fungsi initState()**
+
+![alt text](assets/p2l14.png)
+
+### Langkah 15: Edit method addRandomNumber()
+
+![alt text](assets/p2l5.png)
+
+### Soal 7
+
+**1.Jelaskan maksud kode langkah 13 sampai 15 tersebut!**
+
+Jawab :  Kode ini bertujuan untuk memasukkan error ke dalam aliran data stream yang sedang dihasilkan. Error ditambahkan melalui sink yang merupakan bagian dari stream untuk mengelola data atau error secara langsung.
+
+**2.Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.**
+
+![alt text](assets/p2s7.gif)
+
+**3.Lalu lakukan commit dengan pesan "W12: Jawaban Soal 7".**
