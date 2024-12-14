@@ -84,3 +84,42 @@ Jawab : Keyword yield* pada kode tersebut berfungsi untuk mengembalikan nilai da
 Jawab : Perintah dalam kode tersebut bertujuan untuk mengembalikan nilai dari sebuah fungsi generator yang memuat daftar warna yang telah ditentukan sebelumnya.
 
 **3.Lakukan commit hasil jawaban Soal 3 dengan pesan "W12: Jawaban Soal 3"**
+
+### Langkah 7: Buka main.dart
+
+**Ketik kode impor file ini pada file main.dart**
+
+![alt text](assets/p1l7.png)
+
+### Langkah 8: Tambah variabel
+
+**Ketik dua properti ini di dalam class _StreamHomePageState**
+
+![alt text](assets/p1l8.png)
+
+### Langkah 9: Tambah method changeColor()
+
+**Tetap di file main, Ketik kode seperti berikut**
+
+![alt text](assets/p1l9.png)
+
+### Langkah 10: Lakukan override initState()
+
+![alt text](assets/p1l10.png)
+
+### Langkah 11: Ubah isi Scaffold()
+
+![alt text](assets/p1l11.png)
+
+### Langkah 12: Run
+
+![alt text](assets/p1s4.gif)
+
+### Soal 4
+
+**1.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+Jawab : ![alt text](assets/p1s4.gif)
+
+**Lakukan commit hasil jawaban Soal 4 dengan pesan "W12: Jawaban Soal 4"**
+
