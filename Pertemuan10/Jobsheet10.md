@@ -94,7 +94,7 @@
 
 **Lakukan Hot restart (bukan hot reload) pada aplikasi Flutter Anda. Anda akan melihat tampilan akhir seperti gambar berikut. Jika masih terdapat error, silakan diperbaiki hingga bisa running.**
 
-![alt text](assets/p1l14.gif)
+<img src="assets\p1s3.gif" width="250" height="450"/>
 
 ## Tugas Praktikum 1: Dasar State dengan Model-View
 
@@ -114,7 +114,7 @@ Jawab : Pada langkah 6, variabel plan digunakan untuk menyimpan data yang akan d
 
 Jawab : Saya membuat membuat widget _buildTaskTile untuk membuat dan menambahkan list task
 
-![alt text](assets/p1s3.gif)
+<img src="assets\p1s3.gif" width="250" height="450"/>
 
 **5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?** 
 
@@ -174,7 +174,7 @@ Jawab : Method pada langkah 11 digunakan untuk menambahkan listener pada scroll 
 
 **Hasil Run :**
 
-![alt text](assets/p2l9.gif)
+<img src="assets\p2l9.gif" width="250" height="450"/>
 
 ## Tugas Praktikum 2: InheritedWidget
 
@@ -194,7 +194,8 @@ Jawab : Pada langkah 3, metode digunakan untuk menghitung jumlah tugas yang tela
 
 Jawab : Pada langkah 9, Saya menambahkan widget SafeArea pada method build yang berguna untuk meanmbahkan padding sehingga tepi aplikasi memiliki jarak
 
-![alt text](assets/p2l9.gif)
+
+<img src="assets\p2l9.gif" width="250" height="450"/>
 
 ## Praktikum 3: Membuat State di Multiple Screens
 
@@ -274,9 +275,10 @@ Jawab : Pada langkah 9, Saya menambahkan widget SafeArea pada method build yang 
 
 ![alt text](assets/p3l14.png)
 
+
 **Hasil Run :**
 
-![alt text](assets/p3l14.gif)
+<img src="assets\p3l14.gif" width="250" height="450"/>
 
 ### Tugas Praktikum 3: State di Multiple Screens
 
@@ -301,4 +303,4 @@ Alur ini menunjukkan perpindahan dari layar pembuatan rencana ke layar utama unt
 Jawab : Pada langkah 9 dilakukan pembuatan _buildMasterPlans yang berguna untuk membuat list rencana yang sudah dibuat sebelumnya
 
 
-<img src="/assets/p3l14.gif" width="250" height="250"/>
+<img src="assets\p3l14.gif" width="250" height="450"/>
