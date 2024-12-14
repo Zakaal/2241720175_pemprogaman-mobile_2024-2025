@@ -64,7 +64,7 @@
 
 **Hasil Run :**
 
-![alt text](assets/p1l9.gif)
+<img src="assets\p1l9.gif" width="250" height="450"/>
 
 ### Langkah 10: Tambah Scroll Controller
 
