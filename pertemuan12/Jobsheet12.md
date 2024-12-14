@@ -139,5 +139,77 @@ Perbedaan :
 
 - **await for**: Digunakan untuk menunggu data dari sebuah stream secara sequential. Saat stream mengeluarkan data, kode di dalam blok `await for` akan dijalankan. Proses ini bersifat synchronous, sehingga akan menunggu hingga stream selesai sebelum melanjutkan eksekusi kode berikutnya.
 
-**Lakukan commit hasil jawaban Soal 5 dengan pesan "W12: Jawaban Soal 5"**
+**2. Lakukan commit hasil jawaban Soal 5 dengan pesan "W12: Jawaban Soal 5"**
+
+## Praktikum 2: Stream controllers dan sinks
+
+### Langkah 1: Buka file stream.dart
+
+![alt text](assets/p2l1.png)
+
+### Langkah 2: Tambah class NumberStream
+
+![alt text](assets/p2l2.png)
+
+### Langkah 3: Tambah StreamController
+
+**Di dalam class NumberStream buatlah variabel StreamController**
+
+![alt text](assets/p2l3.png)
+
+### Langkah 4: Tambah method addNumberToSink
+
+![alt text](assets/p2l4.png)
+
+### Langkah 5: Tambah method close()
+
+![alt text](assets/p2l5.png)
+
+### Langkah 6: Buka main.dart
+
+**Ketik kode import seperti berikut**
+
+![alt text](assets/P2L6.png)
+
+### Langkah 7: Tambah variabel
+
+![alt text](assets/p2l7.png)
+
+### Langkah 8: Edit initState()
+
+![alt text](assets/p2l8.png)
+
+### Langkah 9: Edit dispose()
+
+![alt text](assets/p2l9.png)
+
+### Langkah 10: Tambah method addRandomNumber()
+
+![alt text](assets/p2l10.png)
+
+### Langkah 11: Edit method build()
+
+![alt text](assets/p2l11.png)
+
+### Langkah 12: Run
+
+![alt text](assets/p2l12.png)
+
+### Soal 6
+
+**1.Jelaskan maksud kode langkah 8 dan 10 tersebut!**
+
+Jawab : 
+
+- Inisialisasi variabel lastNumber: Variabel ini berfungsi untuk menyimpan nilai terakhir yang dihasilkan oleh stream.
+
+- Penggunaan StreamController: Digunakan sebagai pengendali utama dalam pembuatan dan pengelolaan stream.
+
+- Pembuatan NumberStream: Berperan dalam menghasilkan serta mengatur aliran data pada stream.
+
+**2.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+![alt text](assets/p2s6.gif)
+
+**3.Lalu lakukan commit dengan pesan "W12: Jawaban Soal 6".**
 
