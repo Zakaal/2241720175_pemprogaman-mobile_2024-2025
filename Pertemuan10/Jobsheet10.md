@@ -276,7 +276,7 @@ Jawab : Pada langkah 9, Saya menambahkan widget SafeArea pada method build yang 
 
 **Hasil Run :**
 
-![alt text](p3l14.gif)
+![alt text](assets/p3l14.gif)
 
 ### Tugas Praktikum 3: State di Multiple Screens
 
@@ -300,4 +300,4 @@ Alur ini menunjukkan perpindahan dari layar pembuatan rencana ke layar utama unt
 
 Jawab : Pada langkah 9 dilakukan pembuatan _buildMasterPlans yang berguna untuk membuat list rencana yang sudah dibuat sebelumnya
 
-![alt text](p3l14-1.gif)
+![alt text](assets/p3l14.gif)
