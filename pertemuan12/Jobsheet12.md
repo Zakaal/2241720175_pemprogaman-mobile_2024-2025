@@ -261,7 +261,7 @@ Jawab :  Kode ini bertujuan untuk memasukkan error ke dalam aliran data stream y
 
 ### Soal 8
 
-**Jelaskan maksud kode langkah 1-3 tersebut!**
+**1.Jelaskan maksud kode langkah 1-3 tersebut!**
 
 Jawab : 
 
@@ -271,10 +271,72 @@ Jawab :
 
 - Langkah 3: Mengubah bagian `StreamController` dengan melakukan penyesuaian pada StreamController untuk mengontrol alur stream yang dihasilkan sesuai dengan transformasi yang didefinisikan.
 
-**Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+**2.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
 
 ![alt text](assets/p3s8.gif)
 
-**Lalu lakukan commit dengan pesan "W12: Jawaban Soal 8".**
+## Praktikum 4: Subscribe ke stream events
+
+### Langkah 1: Tambah variabel
+
+**Tambahkan variabel berikut di class `_StreamHomePageState`**
+
+![alt text](assets/p4l1.png)
+
+### Langkah 2: Edit initState()
+
+![alt text](assets/p4l2.png)
+
+### Langkah 3: Tetap di initState()
+
+**Tambahkan kode berikut ini.**
+
+![alt text](assets/p4l3.png)
+
+### Langkah 4: Tambah properti onDone()
+
+![alt text](assets/p4l4.png)
+
+### Langkah 5: Tambah method baru
+
+**Ketik method ini di dalam class `_StreamHomePageState`**
+
+![alt text](assets/p4l5.png)
+
+### Langkah 6: Pindah ke method dispose()
+
+![alt text](assets/p4l6.png)
+
+### Langkah 7: Pindah ke method build()
+
+![alt text](assets/p4l7.png)
+
+### Langkah 8: Edit method addRandomNumber()
+
+![alt text](assets/p4l8.png)
+
+### Langkah 9: Run
+
+![alt text](assets/p4l9.gif)
+
+### Langkah 10: Tekan button ‘Stop Subscription'
+
+![alt text](assets/p4l10.png)
+
+### Soal 9
+
+**1.Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!**
+
+Jawab : 
+
+- Langkah 2: Inisialisasi variabel `StreamSubscription`. Variabel ini digunakan untuk berlangganan (subscribe) ke stream agar dapat menerima data yang dihasilkan oleh stream.
+
+- Langkah 6: Unsubscribe ke stream untuk menghentikan keanggotaan (unsubscribe) dari stream ketika aplikasi dihentikan, guna mencegah kebocoran sumber daya.
+
+- Langkah 8: Angka acak antara 0-9 ditambahkan ke aliran data stream melalui sink, yang berfungsi sebagai pintu masuk untuk data atau event ke dalam stream.
+
+**2.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+![alt text](assets/p4l9s9.gif)
 
 
