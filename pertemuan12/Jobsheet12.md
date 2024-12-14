@@ -238,3 +238,43 @@ Jawab :  Kode ini bertujuan untuk memasukkan error ke dalam aliran data stream y
 ![alt text](assets/p2s7.gif)
 
 **3.Lalu lakukan commit dengan pesan "W12: Jawaban Soal 7".**
+
+## Praktikum 3: Injeksi data ke streams
+
+### Langkah 1: Buka main.dart
+
+**Tambahkan variabel baru di dalam class _StreamHomePageState**
+
+![alt text](assets/p3l1.png)
+
+### Langkah 2: Tambahkan kode ini di initState
+
+![alt text](assets/p3l2.png)
+
+### Langkah 3: Tetap di initState
+
+**Lakukan edit seperti kode berikut.**
+
+![alt text](assets/p3l3.png)
+
+### Langkah 4: Run
+
+### Soal 8
+
+**Jelaskan maksud kode langkah 1-3 tersebut!**
+
+Jawab : 
+
+- Langkah 1: Menambahkan variabel `StreamTransformer`. Variabel ini digunakan untuk memodifikasi data yang diterima dari stream sebelum diteruskan ke pengguna stream.
+
+- Langkah 2: Inisialisasi `StreamTransformer` yang bertujuan untuk mengatur atau mendefinisikan transformasi data yang akan dilakukan oleh StreamTransformer.
+
+- Langkah 3: Mengubah bagian `StreamController` dengan melakukan penyesuaian pada StreamController untuk mengontrol alur stream yang dihasilkan sesuai dengan transformasi yang didefinisikan.
+
+**Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+![alt text](assets/p3s8.gif)
+
+**Lalu lakukan commit dengan pesan "W12: Jawaban Soal 8".**
+
+
