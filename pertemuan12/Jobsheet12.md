@@ -56,4 +56,31 @@ Tambahkan variabel di dalam class ColorStream
 
 ![alt text](assets/p1s2.png)
 
-**Lakukan commit hasil jawaban Soal 2 dengan pesan "W12: Jawaban Soal 2"**
+**2. Lakukan commit hasil jawaban Soal 2 dengan pesan "W12: Jawaban Soal 2"**
+
+![alt text](assets/commits2.png)
+
+### Langkah 5: Tambah method getColors()
+
+Di dalam class ColorStream ketik method seperti kode berikut. Perhatikan tanda bintang di akhir keyword async* (ini digunakan untuk melakukan Stream data)
+
+![alt text](assets/p1l5.png)
+
+### Langkah 6: Tambah perintah yield*
+
+Tambahkan kode sesuai dengan contoh
+
+![alt text](assets/p1l6.png)
+
+### Soal 3 
+
+**1. Jelaskan fungsi keyword yield* pada kode tersebut!**
+
+Jawab : Keyword yield* pada kode tersebut berfungsi untuk mengembalikan nilai dari sebuah fungsi generator lainnya. Generator sendiri adalah fungsi yang menghasilkan nilai secara bertahap atau berurutan. Dalam hal ini, kata kunci yield digunakan untuk mengembalikan setiap nilai yang dihasilkan oleh fungsi generator tersebut.
+
+
+**2.Apa maksud isi perintah kode tersebut**
+
+Jawab : Perintah dalam kode tersebut bertujuan untuk mengembalikan nilai dari sebuah fungsi generator yang memuat daftar warna yang telah ditentukan sebelumnya.
+
+**3.Lakukan commit hasil jawaban Soal 3 dengan pesan "W12: Jawaban Soal 3"**
