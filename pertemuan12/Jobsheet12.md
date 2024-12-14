@@ -443,5 +443,76 @@ Jawab :
 
 ![alt text](assets/p6l8s12.gif)
 
+## Praktikum 7: BLoC Pattern
+
+### Langkah 1: Buat Project baru
+
+**Buatlah sebuah project flutter baru dengan nama bloc_random_nama (beri nama panggilan Anda) di folder  repository GitHub Anda. Lalu buat file baru di folder lib dengan nama random_bloc.dart**
+
+![alt text](assets/p7l2!.png)
+
+### Langkah 2: Isi kode random_bloc.dart
+
+![alt text](assets/p7l2.png)
+
+### Langkah 3: Buat class RandomNumberBloc()
+
+![alt text](assets/p7l3.png)
+
+### Langkah 4: Buat variabel StreamController
+
+![alt text](assets/p7l4.png)
+
+### Langkah 5: Buat constructor
+
+![alt text](assets/p7l5.png)
+
+### Langkah 6: Buat method dispose()
+
+![alt text](assets/p7l6.png)
+
+### Langkah 7: Edit main.dart
+
+![alt text](assets/p7l7.png)
+
+### Langkah 8: Buat file baru random_screen.dart
+
+![alt text](assets/p7l8.png)
+
+### Langkah 9: Lakukan impor material dan random_bloc.dart
+
+![alt text](assets/p7l9.png)
+
+### Langkah 10: Buat StatefulWidget RandomScree
+
+![alt text](assets/p7l10.png)
+
+### Langkah 11: Buat variabel
+
+**Ketik kode ini di dalam class `_RandomScreenState`**
+
+![alt text](assets/p7l11.png)
+
+### Langkah 12: Buat method dispose()
+
+![alt text](assets/p7l12.png)
+
+### Langkah 13: Edit method build()
+
+![alt text](assets/p7l13.png)
+
+### Langkah 13: Edit method build()
+
+![alt text](assets/p7l13.png)
+
+### Soal 13
+
+**1.Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?**
+
+Jawab : Tujuan dari praktikum ini adalah untuk mengembangkan aplikasi yang mengimplementasikan pola BLoC. Pola BLoC berfungsi untuk memisahkan antara logika bisnis dan antarmuka pengguna. Inti dari pola ini terletak pada kelas RandomNumberBloc(), yang bertanggung jawab untuk mengelola stream yang dihasilkan. Setiap perubahan dalam stream akan dikelola oleh kelas RandomNumberBloc() dan hasilnya akan ditampilkan di aplikasi melalui StreamBuilder.
+
+**2.Capture hasil praktikum Anda berupa GIF dan lampirkan di README.**
+
+![alt text](assets/p7s13.gif)
 
 
